@@ -1,0 +1,13 @@
+2.b. write a java program to implement for-each loop to compute average of n natural 
+numbers.
+Class ForEach {
+Public static void main (string args[ ] ) {
+Intnums [ ] = { 1, 2, 3, 4 , 5 , 6, 7, 8, 9, 10 };
+Int sum=0;
+For(int x : nums ) {
+System.out.println(“value is : “+ x);
+Sum += x;
+}
+System.out.println(“summation: “+sum);
+}
+}
